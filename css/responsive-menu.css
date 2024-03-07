@@ -1,0 +1,272 @@
+@media only screen and (min-width: 1366px) {
+    .main-menu .navigation > li > a {
+        padding: 10px 6px;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    .hidden-bar.right-align.visible-sidebar {
+        right: -400px !important;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .main-menu .navigation > li > ul,
+    .main-menu .navigation > li > ul > li > ul {
+        display: block !important;
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .main-menu .navigation > li > a {
+        font-size: 16px;
+        padding: 10px 5px;
+    }
+    a#qoute_home {
+        padding: 10px 13px;
+    }
+}
+@media only screen and (max-width: 1140px) {
+    .main-header {
+        position: relative;
+        margin: 0px !important;
+    }
+    .main-header .main-box .outer-container {
+        padding-right: 0;
+    }
+    .main-menu .navigation > li {
+        margin: 0 0;
+    }
+    .main-menu .navigation > li > a {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .main-header .main-box {
+        left: 0;
+        top: 0;
+        height: 55px;
+    }
+    .logo {
+        float: none;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+    }
+    .logo img {
+        width: 100%;
+        position: relative;
+        max-width: 200px;
+        text-align: center;
+        padding: 5px 0;
+        top: 0;
+        margin: 0;
+    }
+    .main-header .nav-toggler {
+        margin-top: 0;
+        display: inline-block;
+        top: -40px;
+        right: 0;
+        left: -50px;
+        position: relative;
+    }
+    .main-header .main-box .outer-container {
+        padding-left: 0;
+    }
+    .main-header .nav-outer,
+    .nav-outer .main-menu {
+        display: none;
+    }
+    a#qoute_home {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 12px 20px;
+        font-size: 17px;
+        border: 0;
+        margin: 20px 15px;
+        text-align: center;
+        display: block;
+    }
+    a#home {
+        padding: 10px 20px;
+        margin: 10px 15px;
+        display: block;
+        left: 0;
+        font-size: 17px;
+        right: 0;
+        top: 0;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .main-header .nav-toggler {
+        margin-top: -42px;
+        right: 80px;
+        display: inline-block;
+        position: relative;
+        top: -25px;
+    }
+    .fixed-top .logo img {
+        width: 100%;
+        max-width: 200px;
+        text-align: center;
+        padding: 10px 0;
+    }
+}
+@media only screen and (max-width: 830px) {
+    .main-header .nav-toggler {
+        margin-top: -42px;
+        right: 50px;
+        display: inline-block;
+        position: relative;
+        top: -25px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .main-header .header-top .top-right ul.info-nav {
+        float: none;
+        left: -10px;
+    }
+    .header-upper .logo-outer {
+        position: relative;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        margin: 0;
+    }
+    header#navbar_top {
+        background-color: #fff;
+        z-index: 99999;
+    }
+    .main-header .nav-toggler {
+        margin-top: -42px;
+        right: 0;
+        left: 0;
+        display: inline-block;
+        position: relative;
+    }
+    .main-header .header-top .top-right ul li,
+    .main-header .header-top .top-left ul li {
+        margin: 0 10px;
+    }
+    .main-slider .tp-caption {
+        display: none !important;
+    }
+    .main-header .header-top .top-left .dropdown {
+        max-width: 170px;
+        margin: 0 auto;
+    }
+    .main-header .header-top .top-left {
+        width: 100%;
+        text-align: center;
+    }
+    .main-header .header-top .top-left button {
+        display: inline-block;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .main-header .header-top .top-right ul,
+    .main-header .header-top .top-left ul,
+    .header-top .social-icon,
+    .header-top .top-right ul {
+        text-align: center;
+        width: 100%;
+        margin: 10px 0;
+        padding: 0;
+    }
+    .fixed-top .logo img {
+        width: 100%;
+        max-width: 170px;
+        text-align: center;
+        top: 17px;
+        padding: 10px 0;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .logo {
+        position: relative;
+        width: auto;
+        padding: 0;
+        margin: 0 auto;
+        text-align: right;
+    }
+    .logo img {
+        width: 100%;
+        position: relative;
+        max-width: 200px;
+        text-align: center;
+        padding: 5px 0;
+        left: -30px;
+        right: 0;
+        top: 0;
+        margin: 0;
+    }
+    .main-header .nav-toggler {
+        top: -30px;
+        right: 0;
+        left: 10px;
+        display: inline-block;
+        position: relative;
+    }
+}
+@media only screen and (max-width: 499px) {
+    .main-header .nav-toggler {
+        right: 0;
+        top: -10px;
+        left: 0;
+        display: inline-block;
+        position: relative;
+    }
+    .logo img {
+        width: 100%;
+        max-width: 160px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        top: 9px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .main-header .nav-toggler {
+        right: 0;
+        left: 10px;
+        display: inline-block;
+        position: relative;
+    }
+    .logo img {
+        width: 100%;
+        max-width: 160px;
+        text-align: center;
+        padding: 0;
+        left: -30px;
+        margin: 0;
+        right: 0;
+        top: 0;
+        position: relative;
+        top: 9px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .main-header .nav-toggler {
+        margin-top: -30px;
+        right: 0;
+        left: 0;
+        position: relative;
+        z-index: 1;
+        float: left;
+    }
+    .logo img {
+        width: 100%;
+        position: relative;
+        max-width: 170px;
+        text-align: center;
+        padding: 5px 0;
+        top: 0;
+        margin: 0;
+    }
+}
